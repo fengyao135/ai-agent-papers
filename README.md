@@ -38,7 +38,7 @@ ai-agent-papers/
 
 | # | 论文标题 | 分类 | 日期 | 翻译 | 总结 |
 |---|---------|------|------|------|------|
-| — | *暂无论文* | — | — | — | — |
+| 1 | Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering | 综述 | 2026-04 | [翻译](papers/survey/LLM_Agent_Externalization/LLM_Agent_Externalization_中文翻译.md) | [总结](papers/survey/LLM_Agent_Externalization/LLM_Agent_Externalization_论文总结.md) |
 
 **分类说明**：
 

@@ -4,3 +4,4 @@
 
 | # | 论文标题 | 日期 | 翻译 | 总结 |
 |---|---------|------|------|------|
+| 1 | Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering | 2026-04 | [翻译](LLM_Agent_Externalization/LLM_Agent_Externalization_中文翻译.md) | [总结](LLM_Agent_Externalization/LLM_Agent_Externalization_论文总结.md) |
