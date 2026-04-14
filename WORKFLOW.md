@@ -78,18 +78,18 @@
 ## 五、文件组织规则
 
 ```
-papers/
-├── planning/                      # 规划与推理
-├── memory/                        # 记忆机制
-├── tool-use/                      # 工具使用
-├── multi-agent/                   # 多智能体
-├── evaluation/                    # 评估与基准
-├── application/                   # 应用场景
-├── survey/                        # 综述
+ai-agent-papers/
+├── planning/                          # 规划与推理
+├── memory/                            # 记忆机制
+├── tool-use/                          # 工具使用
+├── multi-agent/                       # 多智能体
+├── evaluation/                        # 评估与基准
+├── application/                       # 应用场景
+├── survey/                            # 综述
 └── <分类>/<论文主题>/
-    ├── 论文主题_中文翻译.md    # 翻译
-    ├── 论文主题_论文总结.md    # 总结
-    ├── image-1.png            # 按出现顺序编号
+    ├── 论文主题_中文翻译.md        # 翻译
+    ├── 论文主题_论文总结.md        # 总结
+    ├── image-1.png                    # 按出现顺序编号
     ├── image-2.png
     └── ...
 ```
