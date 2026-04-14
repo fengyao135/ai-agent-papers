@@ -13,9 +13,6 @@
 ai-agent-papers/
 ├── README.md                          # 本文件
 ├── WORKFLOW.md                        # 工作流规范
-├── templates/
-│   ├── 翻译模板.md                     # 翻译文件模板
-│   └── 总结模板.md                     # 总结文件模板
 └── papers/
     ├── planning/                      # 规划与推理
     ├── memory/                        # 记忆机制
@@ -56,9 +53,8 @@ ai-agent-papers/
 
 1. 选择合适的分类目录（如 `papers/planning/`）
 2. 在分类目录下为新论文创建文件夹，文件夹名为论文主题（简短英文）
-3. 复制 `templates/翻译模板.md` → `论文主题_中文翻译.md`，完成翻译
-4. 复制 `templates/总结模板.md` → `论文主题_论文总结.md`，完成总结
-5. 将论文中的图片按出现顺序保存为 `image-1.png`, `image-2.png`, ...
-6. 更新本 README 的论文索引表格及分类目录的 README
+3. 按 [WORKFLOW.md](WORKFLOW.md) 规范完成翻译和总结
+4. 将论文中的图片按出现顺序保存为 `image-1.png`, `image-2.png`, ...
+5. 更新本 README 的论文索引表格及分类目录的 README
 
 详细规范见 [WORKFLOW.md](WORKFLOW.md)。
