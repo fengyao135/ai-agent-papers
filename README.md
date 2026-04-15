@@ -20,20 +20,9 @@ ai-agent-papers/
 ├── evaluation/                        # 评估与基准
 ├── application/                       # 应用场景
 └── survey/                            # 综述
-    ├── LLM_Agent_Externalization/     # 外化综述
-    └── LLM_Agent_Survey/             # LLM智能体综述
 ```
 
-## 论文索引
-
-<!-- 按添加时间倒序排列，新论文添加到表格顶部 -->
-
-| # | 论文标题 | 分类 | 日期 | 翻译 | 总结 |
-|---|---------|------|------|------|------|
-| 1 | Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering | 综述 | 2026-04 | [翻译](survey/LLM_Agent_Externalization/LLM_Agent_Externalization_中文翻译.md) | [总结](survey/LLM_Agent_Externalization/LLM_Agent_Externalization_论文总结.md) |
-| 2 | Large Language Model Agent: A Survey on Methodology, Applications and Challenges | 综述 | 2025-03 | [翻译](survey/LLM_Agent_Survey/LLM_Agent_Survey_中文翻译.md) | [总结](survey/LLM_Agent_Survey/LLM_Agent_Survey_论文总结.md) |
-
-**分类说明**：
+## 分类说明
 
 | 分类 | 目录 | 说明 |
 |------|------|------|
@@ -51,6 +40,6 @@ ai-agent-papers/
 2. 在分类目录下为新论文创建文件夹，文件夹名为论文主题（简短英文）
 3. 按 [WORKFLOW.md](WORKFLOW.md) 规范完成翻译和总结
 4. 将论文中的图片按出现顺序保存为 `image-1.png`, `image-2.png`, ...
-5. 更新本 README 的论文索引表格及分类目录的 README
+5. 更新分类目录的 README
 
 详细规范见 [WORKFLOW.md](WORKFLOW.md)。
