@@ -19,13 +19,9 @@ ai-agent-papers/
 ├── multi-agent/                       # 多智能体
 ├── evaluation/                        # 评估与基准
 ├── application/                       # 应用场景
-├── survey/                            # 综述
-└── <分类>/<论文主题>/                    # 每篇论文一个文件夹
-    ├── 论文主题_中文翻译.md
-    ├── 论文主题_论文总结.md
-    ├── image-1.png                    # 论文截图
-    ├── image-2.png
-    └── ...
+└── survey/                            # 综述
+    ├── LLM_Agent_Externalization/     # 外化综述
+    └── LLM_Agent_Survey/             # LLM智能体综述
 ```
 
 ## 论文索引
