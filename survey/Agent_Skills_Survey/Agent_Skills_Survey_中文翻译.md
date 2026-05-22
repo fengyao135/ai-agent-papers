@@ -75,11 +75,51 @@ $$
 
 为弥合这一程序性鸿沟，智能体技能将程序性知识**打包**为可复用的程序性工件，可在跨任务中存储、检索、修订和治理。本综述的其余部分因此聚焦于这一主动程序层，而非整个智能体知识。
 
+```mermaid
+graph LR
+    Root[智能体技能<br>Agent Skills] --> Rep[III 技能表征<br>Skill Representation]
+    Root --> Acq[IV 技能获取<br>Skill Acquisition]
+    Root --> Ret[V 技能检索与选择<br>Skill Retrieval & Selection]
+    Root --> Evo[VI 技能演化<br>Skill Evolution]
+
+    Rep --> Rep1[基于文本<br>Text-based]
+    Rep --> Rep2[基于代码<br>Code-based]
+    Rep --> Rep3[混合<br>Hybrid]
+
+    Acq --> Acq1[人类衍生<br>Human-Derived]
+    Acq --> Acq2[经验衍生<br>Experience-Derived]
+    Acq --> Acq3[任务衍生<br>Task-Derived]
+    Acq --> Acq4[语料库衍生<br>Corpus-Derived]
+    Acq2 --> Acq2a[选择<br>Selection]
+    Acq2 --> Acq2b[抽象<br>Abstraction]
+    Acq2 --> Acq2c[记忆组织<br>Memory Organization]
+    Acq2 --> Acq2d[程序性打包<br>Procedural Packaging]
+
+    Ret --> RetA[V-A 检索<br>Skill Retrieval]
+    Ret --> RetB[V-B 选择<br>Skill Selection]
+    RetA --> RetA1[稠密嵌入检索<br>Dense Embedding Retrieval]
+    RetA --> RetA2[稀疏/关键词检索<br>Sparse and Keyword Retrieval]
+    RetA --> RetA3[生成式检索<br>Generative Retrieval]
+    RetA --> RetA4[结构感知检索<br>Structure-Aware Retrieval]
+    RetA4 --> RetA4a[层次化<br>Hierarchical]
+    RetA4 --> RetA4b[依赖感知<br>Dependency-aware]
+    RetB --> RetB1[上下文感知动态选择<br>Context-aware Dynamic Selection]
+    RetB --> RetB2[技能组合<br>Skill Composition]
+    RetB --> RetB3[成本与效用感知选择<br>Cost & Utility-aware Selection]
+    RetB --> RetB4[反馈驱动重排序<br>Feedback-driven Reranking]
+
+    Evo --> Evo1[VI-A 修订<br>Skill Revision]
+    Evo --> Evo2[VI-B 验证<br>Skill Validation]
+    Evo --> Evo3[VI-C 策略耦合<br>Policy Coupling]
+    Evo --> Evo4[VI-D 仓库演化<br>Repository Evolution]
+    Evo --> Evo5[VI-E 运行时治理<br>Runtime Governance]
+```
+
+> **图3：本综述的智能体技能分类法。** 原文使用 LaTeX `forest` 环境渲染为分类树（HTML 版未导出为独立图片），此处按原文文字描述以 Mermaid 重建：文献围绕技能生命周期组织——表征（按资源配置分基于文本/基于代码/混合）、获取（按来源分人类/经验/任务/语料库）、检索与选择（按信号分稠密/稀疏/生成/结构感知；按决策维度分上下文/组合/成本/反馈）、演化（修订/验证/策略耦合/仓库演化/运行时治理）。
+
 <p align="center"><img src="image-3.png" width="800" /></p>
 
 > **图4：智能体技能的示例说明。** 每个技能被组织为由多个步骤组成的可复用程序，其中每一步可能涉及推理、工具调用或与外部资源的交互。例如，文献综述技能查询论文数据库、按主题分组、提取核心方法并生成带引用的总结；代码修复技能检查失败日志、定位缺陷、提出补丁、运行测试并基于执行反馈迭代修订；旅行规划与异常调查则展示了技能如何协调并行工具调用、满足用户约束、比较证据并生成可操作的输出。
-
-> **图3（原文为分类树图）：** 本综述的智能体技能分类法。文献围绕技能生命周期组织——表征（按资源配置分为文本、代码、混合）、获取（按来源分为人类、经验、任务、语料库）、检索与选择（按信号分为稠密、稀疏、生成、结构感知；按决策维度分为上下文、组合、成本、反馈）、演化（修订、验证、策略耦合、仓库演化、运行时治理）。
 
 ### II-C 从工具技能到智能体技能
 
@@ -137,13 +177,13 @@ $$
 
 ### III-A 按资源配置的分类法
 
-我们基于 $\mathcal{R}$ 中资源的类型将技能分为三种配置：**文本支持**、**代码支持**和**混合**。
+我们基于 $\mathcal{R}$ 中资源的类型将技能分为三种配置：**基于文本**、**基于代码**和**混合**。
 
-#### III-A1 文本支持的技能
+#### III-A1 基于文本的技能
 
 $\mathcal{R}$ 由文本工件组成，例如参考、示例、模板、评分量表或模式。这些资源改进**落地与复用**，而无需引入可执行的依赖项。
 
-#### III-A2 代码支持的技能
+#### III-A2 基于代码的技能
 
 $\mathcal{R}$ 由可执行工件组成，例如脚本、辅助函数、笔记本或包装器。这使**可重复的子任务**和更强的**操作确定性**成为可能，但将软件打包带入技能生命周期：版本控制、测试和依赖管理都成为持续的成本。
 
