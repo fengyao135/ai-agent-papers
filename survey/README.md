@@ -8,3 +8,4 @@
 | 2 | Large Language Model Agent: A Survey on Methodology, Applications and Challenges | 2025-03 | [翻译](LLM_Agent_Survey/LLM_Agent_Survey_中文翻译.md) | [总结](LLM_Agent_Survey/LLM_Agent_Survey_论文总结.md) |
 | 3 | From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review | 2025-04 | [翻译](LLM_Reasoning_to_Autonomous_Agents/LLM_Reasoning_to_Autonomous_Agents_中文翻译.md) | [总结](LLM_Reasoning_to_Autonomous_Agents/LLM_Reasoning_to_Autonomous_Agents_论文总结.md) |
 | 4 | AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges | 2025-05 | [翻译](AI_Agents_vs_Agentic_AI/AI_Agents_vs_Agentic_AI_中文翻译.md) | [总结](AI_Agents_vs_Agentic_AI/AI_Agents_vs_Agentic_AI_论文总结.md) |
+| 5 | A Comprehensive Survey on Agent Skills: Taxonomy, Techniques, and Applications | 2026-05 | [翻译](Agent_Skills_Survey/Agent_Skills_Survey_中文翻译.md) | [总结](Agent_Skills_Survey/Agent_Skills_Survey_论文总结.md) |
