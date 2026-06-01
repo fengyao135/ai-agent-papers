@@ -2,7 +2,7 @@
 
 **原文：** A Comprehensive Survey on Agent Skills: Taxonomy, Techniques, and Applications
 **作者：** Yingli Zhou, Shu Wang, Yaodong Su, Wenchuan Du, Yixiang Fang, Xuemin Lin
-**来源：** arXiv:2605.07358v2 | 2026 年 5 月（v1: 5月8日，v2: 5月19日）
+**来源：** arXiv:2605.07358v3 | 2026 年 5 月（v1: 5月8日，v2: 5月19日，v3: 5月26日）
 **资源库：** https://github.com/JayLZhou/Awesome-Agent-Skills
 **篇幅：** 涵盖 129 篇代表性文献 | 4 大生命周期模块 + 8 大应用领域
 
